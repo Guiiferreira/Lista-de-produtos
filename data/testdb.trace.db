@@ -1,0 +1,9 @@
+2025-02-24 18:09:34.477757-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_PRODUCTS" not found (this database is empty); SQL statement:
+select pm1_0.id_product,pm1_0.name,pm1_0.valor from tb_products pm1_0 [42104-232]
+2025-02-24 18:09:40.459133-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_PRODUCTS" not found (this database is empty); SQL statement:
+insert into tb_products (name,valor,id_product) values (?,?,?) [42104-232]
+2025-02-24 18:09:42.048113-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_PRODUCTS" not found (this database is empty); SQL statement:
+insert into tb_products (name,valor,id_product) values (?,?,?) [42104-232]
